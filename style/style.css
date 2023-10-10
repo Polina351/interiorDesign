@@ -220,6 +220,7 @@ a:active {
     letter-spacing: 0.22px;
 }
 /* articles*/
+
 .articles {
     display: flex;
     flex-direction: column;
@@ -228,6 +229,7 @@ a:active {
 }
 .articles__cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 27px;
 }
